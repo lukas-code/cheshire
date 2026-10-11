@@ -20,9 +20,12 @@ bender = { path = "pixi-packages/bender" }
 riscv-toolchain = { path = "pixi-packages/riscv-toolchain" }
 python = ">=3.11"
 make = "*"
+which = "*"
+findutils = "*"
+diffutils = "*"
+gptfdisk = "*"
 wget = "*"
 unzip = "*"
-# FIXME: make conda package for gdisk (it's currently installed by apt in the base container)
 
 [pypi-dependencies]
 "requests" = "*"
